@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Google 2008 Style</title>
+<style>
+  body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    color: #222;
+  }
+  #logo {
+    margin-bottom: 20px;
+  }
+  #searchbox {
+    width: 500px;
+    height: 26px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    padding: 4px 8px;
+    border-radius: 2px;
+  }
+  .btn {
+    font-size: 14px;
+    padding: 6px 14px;
+    margin-left: 6px;
+    border: 1px solid #f8f8f8;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  .btn:hover {
+    border: 1px solid #c6c6c6;
+    background-color: #f1f1f1;
+  }
+  #footer {
+    margin-top: 180px;
+    font-size: 12px;
+    color: #777;
+  }
+  a {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <img id="logo" src="https://www.google.com/images/logos/gs_logo2.png" alt="Google" />
+
+  <form action="https://www.google.com/search" method="get">
+    <input id="searchbox" type="text" name="q" autocomplete="off" />
+    <input class="btn" type="submit" value="Pesquisa Google" />
+    <input class="btn" type="submit" name="btnI" value="Estou com sorte" />
+  </form>
+
+  <div id="footer">
+    <p>Brasil</p>
+    <p><a href="https://www.google.com/intl/pt-BR/ads/">Publicidade</a> - <a href="https://www.google.com/services/">Negócios</a> - <a href="https://www.google.com/intl/pt-BR/about.html">Sobre</a></p>
+  </div>
+</body>
+</html>
